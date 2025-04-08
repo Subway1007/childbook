@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy's Adventure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        section img {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Content Section -->
+    <section>
+        <h2>Wendy's Adventure</h2>
+
+        <h3>Image 1: Wendy’s Smile</h3>
+        <img src="image 1.jpg" alt="Wendy's Smile">
+        
+        <h3>Image 2: A New Friend</h3>
+        <img src="image 2.jpg" alt="A New Friend">
+        
+        <h3>Image 3: Looking for the Puppy</h3>
+        <img src="image 3.jpg" alt="Looking for the Puppy">
+        
+        <h3>Image 4: Helping Each Other</h3>
+        <img src="image 4.jpg" alt="Helping Each Other">
+        
+        <h3>Image 5: Finding the Puppy</h3>
+        <img src="image 5.jpg" alt="Finding the Puppy">
+        
+        <h3>Image 6: On the Way Home</h3>
+        <img src="image 6.jpg" alt="On the Way Home">
+        
+        <h3>Image 7: Celebrating the Return of the Puppy</h3>
+        <img src="image 7.jpg" alt="Celebrating the Return of the Puppy">
+        
+        <h3>Image 8: Teamwork</h3>
+        <img src="image 8.jpg" alt="Teamwork">
+        
+        <h3>Image 9: Learning to Share</h3>
+        <img src="image 9.jpg" alt="Learning to Share">
+        
+        <h3>Image 10: Happy Ending</h3>
+        <img src="image 10.jpg" alt="Happy Ending">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Wendy's Adventure. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for interactive features -->
+    <script>
+        // Example JavaScript to make an alert on image click
+        const images = document.querySelectorAll('img');
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                alert('You clicked on an image!');
+            });
+        });
+    </script>
+
+</body>
+</html>
